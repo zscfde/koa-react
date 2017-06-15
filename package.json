@@ -1,0 +1,26 @@
+{
+  "name": "koa-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "server": "babel -o build/server.js < server/server.js && node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "koa": "^2.2.0",
+    "koa-router": "^7.2.0",
+    "koa-static-cache": "^5.1.1",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0"
+  }
+}
